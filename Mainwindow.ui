@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>929</width>
+    <height>724</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="1">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>2</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Agregar</string>
+       </attribute>
+       <widget class="QPlainTextEdit" name="plainTextEdit">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>20</y>
+          <width>561</width>
+          <height>591</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>311</width>
+          <height>621</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Particulas</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="8" column="0">
+          <widget class="QLabel" name="Blue_label">
+           <property name="text">
+            <string>Blue</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="Velocidad_label">
+           <property name="text">
+            <string>Velocidad</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QSpinBox" name="Velocidad_spinBox">
+           <property name="maximum">
+            <number>100000</number>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="0" colspan="2">
+          <widget class="QPushButton" name="inicio_pushButton">
+           <property name="text">
+            <string>Agregar Iinicio </string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="DestinoX_label">
+           <property name="text">
+            <string>Destino X</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="0">
+          <widget class="QLabel" name="Red_label">
+           <property name="text">
+            <string>Red</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="1">
+          <widget class="QSpinBox" name="Red_spinBox">
+           <property name="maximum">
+            <number>255</number>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="1">
+          <widget class="QSpinBox" name="Blue_spinBox">
+           <property name="maximum">
+            <number>255</number>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>Id</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QSpinBox" name="DestinoX_spinBox">
+           <property name="maximum">
+            <number>500</number>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>Origen X</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QSpinBox" name="OrigenY_spinBox">
+           <property name="maximum">
+            <number>500</number>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>Origen Y</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="DestinoY_label">
+           <property name="text">
+            <string>Destino Y</string>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="1">
+          <widget class="QSpinBox" name="Green_spinBox">
+           <property name="maximum">
+            <number>255</number>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QSpinBox" name="DestinoY_spinBox">
+           <property name="maximum">
+            <number>500</number>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="0">
+          <widget class="QLabel" name="Green_label">
+           <property name="text">
+            <string>Green</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QSpinBox" name="OrigenX_spinBox">
+           <property name="maximum">
+            <number>500</number>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QSpinBox" name="Id_spinBox">
+           <property name="maximum">
+            <number>500</number>
+           </property>
+          </widget>
+         </item>
+         <item row="10" column="0">
+          <widget class="QPushButton" name="mostrar_pushButton">
+           <property name="text">
+            <string>Mostrar</string>
+           </property>
+          </widget>
+         </item>
+         <item row="10" column="1">
+          <widget class="QPushButton" name="final_pushButton">
+           <property name="text">
+            <string>Agregar Final</string>
+           </property>
+          </widget>
+         </item>
+         <item row="11" column="0" colspan="2">
+          <widget class="QPushButton" name="lista_de_adyacencia_pushButton">
+           <property name="text">
+            <string>Mostrar lista de adyacencia </string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Tabla</string>
+       </attribute>
+       <widget class="QTableWidget" name="tabla">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>881</width>
+          <height>521</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="buscar_lineEdit">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>570</y>
+          <width>341</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="placeholderText">
+         <string>Id a buscar </string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="buscar_pushButton">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>570</y>
+          <width>93</width>
+          <height>28</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Buscar</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="mostrar_tabla_pushButton">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>570</y>
+          <width>93</width>
+          <height>28</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Mostrar</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>Grafico</string>
+       </attribute>
+       <widget class="QPushButton" name="Dibujar_pushButton">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>550</y>
+          <width>241</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Dibujar</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="Limpiar_pushButton">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>590</y>
+          <width>241</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Limpiar </string>
+        </property>
+       </widget>
+       <widget class="QGraphicsView" name="graphicsView">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>20</y>
+          <width>861</width>
+          <height>481</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="Ver_puntos_pushButton">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>590</y>
+          <width>171</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Ver Puntos</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="puntos_mas_cercanos_pushButton">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>550</y>
+          <width>171</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Ver Puntos Mas Cercanos </string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="kruskal_pushButton">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>550</y>
+          <width>151</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Kruskal </string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>520</y>
+          <width>47</width>
+          <height>13</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Grafico</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>520</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Fuerza Bruta</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>520</y>
+          <width>41</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Grafos</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="dijkstra_pushButton">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>590</y>
+          <width>151</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Dijkstra</string>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="OrigenX_spinBox_2">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>520</y>
+          <width>71</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="maximum">
+         <number>1000</number>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="DestinoX_spinBox_2">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>550</y>
+          <width>71</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="maximum">
+         <number>1000</number>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="OrigenY_spinBox_2">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>580</y>
+          <width>71</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="maximum">
+         <number>1000</number>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="DestinoY_spinBox_2">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>610</y>
+          <width>71</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="maximum">
+         <number>1000</number>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_7">
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>520</y>
+          <width>101</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Origen X</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_8">
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>550</y>
+          <width>101</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Destino X </string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_9">
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>580</y>
+          <width>47</width>
+          <height>13</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Origen Y</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_10">
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>610</y>
+          <width>47</width>
+          <height>13</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Destino Y </string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>929</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="actionArbir"/>
+    <addaction name="actionGuardar"/>
+   </widget>
+   <widget class="QMenu" name="menuOrdenar">
+    <property name="title">
+     <string>Ordenar </string>
+    </property>
+    <addaction name="actionID"/>
+    <addaction name="actionVelocidad"/>
+    <addaction name="actionDistancia"/>
+   </widget>
+   <addaction name="menuArchivo"/>
+   <addaction name="menuOrdenar"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionArbir">
+   <property name="text">
+    <string>Arbir</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionGuardar">
+   <property name="text">
+    <string>Guardar</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionID">
+   <property name="text">
+    <string>ID</string>
+   </property>
+  </action>
+  <action name="actionVelocidad">
+   <property name="text">
+    <string>Velocidad </string>
+   </property>
+  </action>
+  <action name="actionDistancia">
+   <property name="text">
+    <string>Distancia </string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
